@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NetworkingArchitecture</string>
+    <string name="menu_sign_in">Sign In</string>
+    <string name="menu_sign_out">Sign Out</string>
+    <string name="check_in_button">Check-In</string>
+    <string name="successful_check_in_message">Successfully checked in!</string>
+    <string name="expired_token_dialog_title">Expired Token</string>
+    <string name="expired_token_dialog_message">Your access token has expired.
+        Please reauthenticate with Foursquare and try again.</string>
+</resources>

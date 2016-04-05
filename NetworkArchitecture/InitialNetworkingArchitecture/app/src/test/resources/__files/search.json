@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "response": {
+    "venues": [
+      {
+        "id": "527c1d4f11d20f41ba39fc01",
+        "name": "BNR Intergalactic Headquarters",
+        "location": {
+          "address": "200 Arizona Ave NE",
+          "lat": 33.759117798303876,
+          "lng": -84.33182617105327,
+          "distance": 20,
+          "postalCode": "30307",
+          "cc": "US",
+          "city": "Atlanta",
+          "state": "GA",
+          "country": "United States",
+          "formattedAddress": [
+            "200 Arizona Ave NE",
+            "Atlanta, GA 30307",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d124941735",
+            "name": "Office",
+            "pluralName": "Offices",
+            "shortName": "Office",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 566,
+          "usersCount": 38,
+          "tipCount": 1
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1432061341"
+      },
+      {
+        "id": "5324e247498e2461525731e0",
+        "name": "Ration and Dram",
+        "location": {
+          "address": "130 Arizona Ave NE",
+          "lat": 33.75869457353968,
+          "lng": -84.33155906412033,
+          "distance": 53,
+          "postalCode": "30307",
+          "cc": "US",
+          "city": "Atlanta",
+          "state": "GA",
+          "country": "United States",
+          "formattedAddress": [
+            "130 Arizona Ave NE",
+            "Atlanta, GA 30307",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14e941735",
+            "name": "American Restaurant",
+            "pluralName": "American Restaurants",
+            "shortName": "American",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 519,
+          "usersCount": 341,
+          "tipCount": 18
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "venuePage": {
+          "id": "111440926"
+        },
+        "referralId": "v-1432061341"
+      }
+    ]
+  }
+}
