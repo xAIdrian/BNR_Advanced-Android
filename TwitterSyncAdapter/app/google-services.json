@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_id": "amohnacstwittersyncadapter",
+    "project_number": "205143844664",
+    "name": "AMohnacsTwitterSyncAdapter"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205143844664:android:5f4e3410d6ff4a9e",
+        "client_id": "android:com.bignerdranch.android.initialtwittersyncadapter",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.bignerdranch.android.initialtwittersyncadapter",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

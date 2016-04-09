@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TwitterSyncAdapter</string>
+    <string name="account_name">com.bignerdranch.android.initialtwittersyncadapter.USER_ACCOUNT</string>
+</resources>
