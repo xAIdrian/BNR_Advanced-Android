@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="buyButtonClickListener"
+            type="android.view.View.OnClickListener"/>
+
+        <variable
+            name="productViewModel"
+            type="com.bignerdranch.android.initialnerdmart.viewmodel.ProductViewModel" />
+    </data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="horizontal"
+    android:background="@{productViewModel.getRowColor}">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="@{productViewModel.getTitle}"
+        tools:text="product title" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:text="@{productViewModel.getDisplayPrice}"
+        tools:text="$12.99" />
+    <TextView
+        android:id="@+id/view_product_row_qty_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:text="@{productViewModel.getProductQuantityDisplay}"
+        tools:text="3" />
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buy_button_text"
+        app:onClickListener="@{ buyButtonClickListener }"/>
+</LinearLayout>
+
+</layout>

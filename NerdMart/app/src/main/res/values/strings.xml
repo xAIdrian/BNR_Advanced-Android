@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Nerdmart</string>
+    <string name="loading_text">Loading</string>
+    <string name="auth_success_toast">Authentication Successful</string>
+    <string name="password_hint">password</string>
+    <string name="password_value">pizza</string>
+    <string name="login_text">login</string>
+    <string name="username_hint">username</string>
+    <string name="username_value">johnnydoe</string>
+    <string name="user_greeting">Welcome, %s</string>
+    <string name="quantity_display_text">qty: %d</string>
+    <string name="logout_button_text">logout</string>
+    <string name="buy_button_text">buy</string>
+    <string name="auth_failure_toast">Login Failed!</string>
+    <plurals name="cart">
+        <item quantity="one">%d item.</item>
+        <item quantity="other">%d items.</item>
+    </plurals>
+</resources>

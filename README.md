@@ -3,6 +3,7 @@ https://training.bignerdranch.com/classes/advanced-android
 <br>
 ###Table of Contents:
 * [Networking Architecture](#arch)
+* [Model Architecture](#model)
 
 ### <a name="arch"></a>Networking Architecture
 
@@ -15,3 +16,4 @@ Listen for background download completion using Observables in RxJava and RetroL
 Network Error Handling with Retrofit.
 
 Unit and Integration Tests with Robolectric and Mockito.
+

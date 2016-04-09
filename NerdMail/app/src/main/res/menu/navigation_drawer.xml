@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/primaryGroup"
+        android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/nav_drawer_inbox"
+            android:checked="true"
+            android:icon="@drawable/ic_inbox"
+            android:title="@string/nav_drawer_inbox" />
+
+        <item
+            android:id="@+id/nav_drawer_important"
+            android:checked="false"
+            android:icon="@drawable/ic_important"
+            android:title="@string/nav_drawer_important" />
+
+    </group>
+
+    <group
+        android:id="@+id/secondary_group"
+        android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/nav_drawer_spam"
+            android:checked="false"
+            android:icon="@drawable/ic_spam"
+            android:title="@string/nav_drawer_spam" />
+
+        <item
+            android:id="@+id/nav_drawer_all"
+            android:checked="false"
+            android:icon="@drawable/ic_all_mail"
+            android:title="@string/nav_drawer_all" />
+
+    </group>
+
+</menu>

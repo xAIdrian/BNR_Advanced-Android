@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NerdMail</string>
+    <string name="nav_drawer_inbox">Inbox</string>
+    <string name="nav_drawer_spam">Spam</string>
+    <string name="nav_drawer_all">All</string>
+    <string name="nav_drawer_important">Important</string>
+    <string name="nav_drawer_header_main">Main</string>
+    <string name="nav_drawer_header_secondary">Secondary</string>
+    <string name="open_drawer_content_description">Open Navigation Drawer</string>
+    <string name="close_drawer_content_description">Close navigation drawer</string>
+    <string name="loading_text">Loading Emails</string>
+    <string name="multiple_emails_title">%1$d New Emails</string>
+</resources>
